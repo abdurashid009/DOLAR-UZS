@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+        <h2>Valyuta almashtirish</h2>
+    <input type="text" placeholder="Valyuta kiritish" id="amount" value="1">
+    <select class="from" id="from">
+        <option value="USD"><img src="https://flagcdn.com/48x36/us.png" alt="USD" width="24" height="18"> USD</option>
+        <option value="EUR"><img src="https://flagcdn.com/48x36/eu.png" alt="EUR" width="24" height="18"> EUR</option>
+        <option value="UZS">    <img src="https://flagcdn.com/48x36/uz.png" alt="UZS" width="24" height="18"> UZS</option>
+        <option value="RUB">    <img src="https://flagcdn.com/48x36/ru.png" alt="RUB" width="24" height="18"> RUB</option>
+    </select>
+    <select class="to" id="to">
+        <option value="UZS">    <img src="https://flagcdn.com/48x36/uz.png" alt="UZS" width="24" height="18"> UZS</option>
+        <option value="USD"><img src="https://flagcdn.com/48x36/us.png" alt="USD" width="24" height="18"> USD</option>
+        <option value="EUR"><img src="https://flagcdn.com/48x36/eu.png" alt="EUR" width="24" height="18"> EUR</option>
+        <option value="RUB">    <img src="https://flagcdn.com/48x36/ru.png" alt="RUB" width="24" height="18"> RUB</option>
+    </select>
+    <button onclick="converterCurrency()">Almashtirish</button>
+    <h3 id="result"></h3>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
